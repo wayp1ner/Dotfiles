@@ -37,7 +37,7 @@ cargo install rebos
 ```
   Clone my rebos config and install my rebos config
 ```
-git clone https://github.com/waypiner/rebos-arch ~/.config/rebos
+git clone https://github.com/waypiner/Rebos-arch ~/.config/rebos
 rebos setup
 rebos config init
 rebos gen commit "initial"
