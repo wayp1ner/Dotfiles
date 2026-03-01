@@ -1,1 +1,2 @@
+. filter=lfs diff=lfs merge=lfs -text
 .local/share/pnpm/store/v10/files/8f/ba618efe430d3f5c35e312cf8f7ede10187add9df60097fdc965f4cb4eb4db93fd1be2faf77bad49bb4e1015e8aa64f4e1e42992291549a935fa2c574bb12c-exec filter=lfs diff=lfs merge=lfs -text
