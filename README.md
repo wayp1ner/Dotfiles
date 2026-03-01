@@ -1,6 +1,5 @@
 # waypiner's Linux dotfiles (based on **[stdrice's dotfiles](https://github.com/stdrice/dotfiles)**)
 
-# Table of Contents
 - [Starring](#starring)
 - [Installation](#installation)
 - [Keybindings](#keybindings)
@@ -15,8 +14,6 @@
 - **[ncmpcpp]([https://github.com/ncmpcpp/ncmpcpp])**: Music Player
 - **[calcurse](https://www.calcurse.org)**: Calendar
 - **[btop](https://github.com/aristocratos/btop)**: System monitor
-
-and so on!
 
 # Installation
 1. Install all dependencies
