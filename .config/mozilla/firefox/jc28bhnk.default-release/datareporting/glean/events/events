@@ -1,0 +1,17 @@
+{"timestamp":16418175,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1772164624871","loadfail_reason":"N/A","can_load":"true","path_key":"clean"}}
+{"timestamp":16418175,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","glean_timestamp":"1772164624872","path_key":"clean","can_load":"true"}}
+{"timestamp":16418176,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_ok":"false","shutdown_reason":"N/A","glean_timestamp":"1772164624873"}}
+{"timestamp":16418924,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1772164625620"}}
+{"timestamp":16419795,"category":"nimbus_events","name":"startup_database_consistency","extra":{"glean_timestamp":"1772164626492","total_store_count":"30","db_active_count":"28","primary":"database","store_active_count":"28","trigger":"startup","total_db_count":"30"}}
+{"timestamp":16419919,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1772164626615","value":"error_notfounderror"}}
+{"timestamp":16419971,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1772164626667","value":"null"}}
+{"timestamp":16420082,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1772164626779"}}
+{"timestamp":16420614,"category":"jsonfile","name":"load_logins","extra":{"glean_timestamp":"1772164627310","value":"error_notfounderror"}}
+{"timestamp":16421118,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1772164627814"}}
+{"timestamp":16421128,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1772164627825"}}
+{"timestamp":16422488,"category":"urlbar","name":"abandonment","extra":{"groups":"top_site,top_site,top_site,top_site,top_site,recent_search,recent_search,recent_search,trending_search_rich,trending_search","abandonment_type":"blur","n_words":"0","search_engine_default_id":"google-b-d","search_mode":"","n_chars":"0","sap":"urlbar","interaction":"topsites","n_results":"10","actions":"none,none,none,none,none,none,none,none,none,none","available_semantic_sources":"none","glean_timestamp":"1772164629185","results":"top_site,top_site,top_site,top_site,top_site,recent_search,recent_search,recent_search,trending_search_rich,trending_search"}}
+{"timestamp":16422981,"category":"media","name":"error","extra":{"error_name":"NS_ERROR_DOM_MEDIA_NOT_SUPPORTED_ERR","error_type":"SrcNotSupportedErr","glean_timestamp":"1772164629768"}}
+{"timestamp":16422981,"category":"media","name":"error","extra":{"error_type":"SrcNotSupportedErr","glean_timestamp":"1772164629768","error_name":"NS_ERROR_DOM_MEDIA_NOT_SUPPORTED_ERR"}}
+{"timestamp":16422981,"category":"media","name":"error","extra":{"error_type":"SrcNotSupportedErr","error_name":"NS_ERROR_DOM_MEDIA_NOT_SUPPORTED_ERR","glean_timestamp":"1772164629768"}}
+{"timestamp":16422982,"category":"media","name":"error","extra":{"glean_timestamp":"1772164629768","error_type":"SrcNotSupportedErr","error_name":"NS_ERROR_DOM_MEDIA_NOT_SUPPORTED_ERR"}}
+{"timestamp":16423245,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1772164629941"}}

@@ -1,0 +1,128 @@
+2026/02/27-06:24:21.870 4a6 Reusing MANIFEST /home/waypiner/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/02/27-06:24:21.880 4a6 Recovering log #371
+2026/02/27-06:24:21.882 4a6 Level-0 table #375: started
+2026/02/27-06:24:21.891 4a6 Level-0 table #375: 47368 bytes OK
+2026/02/27-06:24:21.907 4a6 Delete type=0 #371
+2026/02/27-06:26:22.522 4a4 Level-0 table #378: started
+2026/02/27-06:26:22.532 4a4 Level-0 table #378: 95531 bytes OK
+2026/02/27-06:26:22.550 4a4 Delete type=0 #376
+2026/02/27-06:28:22.521 4a4 Level-0 table #380: started
+2026/02/27-06:28:22.531 4a4 Level-0 table #380: 52117 bytes OK
+2026/02/27-06:28:22.548 4a4 Delete type=0 #377
+2026/02/27-06:30:22.521 4a4 Level-0 table #382: started
+2026/02/27-06:30:22.532 4a4 Level-0 table #382: 47535 bytes OK
+2026/02/27-06:30:22.548 4a4 Delete type=0 #379
+2026/02/27-06:30:22.549 4a4 Compacting 4@0 + 1@1 files
+2026/02/27-06:30:22.561 4a4 Generated table #383@0: 47 keys, 102465 bytes
+2026/02/27-06:30:22.561 4a4 Compacted 4@0 + 1@1 files => 102465 bytes
+2026/02/27-06:30:22.577 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/27-06:30:22.578 4a4 Delete type=2 #373
+2026/02/27-06:30:22.578 4a4 Delete type=2 #375
+2026/02/27-06:30:22.578 4a4 Delete type=2 #378
+2026/02/27-06:30:22.578 4a4 Delete type=2 #380
+2026/02/27-06:30:22.578 4a4 Delete type=2 #382
+2026/02/27-06:38:52.029 4a4 Level-0 table #385: started
+2026/02/27-06:38:52.045 4a4 Level-0 table #385: 47801 bytes OK
+2026/02/27-06:38:52.062 4a4 Delete type=0 #381
+2026/02/27-10:46:46.997 4a4 Level-0 table #387: started
+2026/02/27-10:46:47.009 4a4 Level-0 table #387: 47065 bytes OK
+2026/02/27-10:46:47.026 4a4 Delete type=0 #384
+2026/02/27-10:56:35.223 4a4 Level-0 table #389: started
+2026/02/27-10:56:35.236 4a4 Level-0 table #389: 42539 bytes OK
+2026/02/27-10:56:35.252 4a4 Delete type=0 #386
+2026/02/27-10:56:47.532 4a4 Level-0 table #391: started
+2026/02/27-10:56:47.541 4a4 Level-0 table #391: 48442 bytes OK
+2026/02/27-10:56:47.558 4a4 Delete type=0 #388
+2026/02/27-10:56:47.558 4a4 Compacting 4@0 + 1@1 files
+2026/02/27-10:56:47.570 4a4 Generated table #392@0: 47 keys, 102645 bytes
+2026/02/27-10:56:47.570 4a4 Compacted 4@0 + 1@1 files => 102645 bytes
+2026/02/27-10:56:47.589 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/27-10:56:47.589 4a4 Delete type=2 #383
+2026/02/27-10:56:47.589 4a4 Delete type=2 #385
+2026/02/27-10:56:47.589 4a4 Delete type=2 #387
+2026/02/27-10:56:47.589 4a4 Delete type=2 #389
+2026/02/27-10:56:47.589 4a4 Delete type=2 #391
+2026/02/27-10:56:59.723 4a4 Level-0 table #394: started
+2026/02/27-10:56:59.733 4a4 Level-0 table #394: 47203 bytes OK
+2026/02/27-10:56:59.750 4a4 Delete type=0 #390
+2026/02/27-10:57:55.591 4a4 Level-0 table #396: started
+2026/02/27-10:57:55.603 4a4 Level-0 table #396: 48204 bytes OK
+2026/02/27-10:57:55.620 4a4 Delete type=0 #393
+2026/02/27-11:03:23.505 4a4 Level-0 table #398: started
+2026/02/27-11:03:23.519 4a4 Level-0 table #398: 47185 bytes OK
+2026/02/27-11:03:23.536 4a4 Delete type=0 #395
+2026/02/27-11:05:01.493 4a4 Level-0 table #400: started
+2026/02/27-11:05:01.503 4a4 Level-0 table #400: 47361 bytes OK
+2026/02/27-11:05:01.519 4a4 Delete type=0 #397
+2026/02/27-11:05:01.520 4a4 Compacting 4@0 + 1@1 files
+2026/02/27-11:05:01.531 4a4 Generated table #401@0: 47 keys, 102671 bytes
+2026/02/27-11:05:01.531 4a4 Compacted 4@0 + 1@1 files => 102671 bytes
+2026/02/27-11:05:01.547 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/27-11:05:01.548 4a4 Delete type=2 #392
+2026/02/27-11:05:01.548 4a4 Delete type=2 #394
+2026/02/27-11:05:01.548 4a4 Delete type=2 #396
+2026/02/27-11:05:01.548 4a4 Delete type=2 #398
+2026/02/27-11:05:01.548 4a4 Delete type=2 #400
+2026/02/27-11:09:25.309 4a4 Level-0 table #403: started
+2026/02/27-11:09:25.320 4a4 Level-0 table #403: 47327 bytes OK
+2026/02/27-11:09:25.337 4a4 Delete type=0 #399
+2026/02/27-11:16:42.981 4a4 Level-0 table #405: started
+2026/02/27-11:16:42.991 4a4 Level-0 table #405: 47180 bytes OK
+2026/02/27-11:16:43.009 4a4 Delete type=0 #402
+2026/02/27-11:17:07.673 4a4 Level-0 table #407: started
+2026/02/27-11:17:07.683 4a4 Level-0 table #407: 47570 bytes OK
+2026/02/27-11:17:07.699 4a4 Delete type=0 #404
+2026/02/27-11:24:40.472 4a4 Level-0 table #409: started
+2026/02/27-11:24:40.481 4a4 Level-0 table #409: 48579 bytes OK
+2026/02/27-11:24:40.498 4a4 Delete type=0 #406
+2026/02/27-11:24:40.499 4a4 Compacting 4@0 + 1@1 files
+2026/02/27-11:24:40.510 4a4 Generated table #410@0: 47 keys, 102785 bytes
+2026/02/27-11:24:40.510 4a4 Compacted 4@0 + 1@1 files => 102785 bytes
+2026/02/27-11:24:40.527 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/27-11:24:40.527 4a4 Delete type=2 #401
+2026/02/27-11:24:40.527 4a4 Delete type=2 #403
+2026/02/27-11:24:40.527 4a4 Delete type=2 #405
+2026/02/27-11:24:40.527 4a4 Delete type=2 #407
+2026/02/27-11:24:40.527 4a4 Delete type=2 #409
+2026/02/27-11:27:40.237 4a4 Level-0 table #412: started
+2026/02/27-11:27:40.248 4a4 Level-0 table #412: 48378 bytes OK
+2026/02/27-11:27:40.265 4a4 Delete type=0 #408
+2026/02/27-11:29:24.212 4a4 Level-0 table #414: started
+2026/02/27-11:29:24.222 4a4 Level-0 table #414: 47457 bytes OK
+2026/02/27-11:29:24.239 4a4 Delete type=0 #411
+2026/02/27-11:30:12.755 4a4 Level-0 table #416: started
+2026/02/27-11:30:12.765 4a4 Level-0 table #416: 47435 bytes OK
+2026/02/27-11:30:12.782 4a4 Delete type=0 #413
+2026/02/27-11:33:01.665 4a4 Level-0 table #418: started
+2026/02/27-11:33:01.677 4a4 Level-0 table #418: 49869 bytes OK
+2026/02/27-11:33:01.694 4a4 Delete type=0 #415
+2026/02/27-11:33:01.694 4a4 Compacting 4@0 + 1@1 files
+2026/02/27-11:33:01.704 4a4 Generated table #419@0: 47 keys, 102866 bytes
+2026/02/27-11:33:01.704 4a4 Compacted 4@0 + 1@1 files => 102866 bytes
+2026/02/27-11:33:01.862 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/27-11:33:01.863 4a4 Delete type=2 #410
+2026/02/27-11:33:01.863 4a4 Delete type=2 #412
+2026/02/27-11:33:01.863 4a4 Delete type=2 #414
+2026/02/27-11:33:01.863 4a4 Delete type=2 #416
+2026/02/27-11:33:01.863 4a4 Delete type=2 #418
+2026/02/27-11:37:12.188 4a4 Level-0 table #421: started
+2026/02/27-11:37:12.202 4a4 Level-0 table #421: 47453 bytes OK
+2026/02/27-11:37:12.219 4a4 Delete type=0 #417
+2026/02/27-13:21:56.839 4a4 Level-0 table #423: started
+2026/02/27-13:21:56.849 4a4 Level-0 table #423: 47632 bytes OK
+2026/02/27-13:21:56.865 4a4 Delete type=0 #420
+2026/02/27-13:24:29.170 4a4 Level-0 table #425: started
+2026/02/27-13:24:29.182 4a4 Level-0 table #425: 49824 bytes OK
+2026/02/27-13:24:29.199 4a4 Delete type=0 #422
+2026/02/27-13:32:39.670 4a4 Level-0 table #427: started
+2026/02/27-13:32:39.687 4a4 Level-0 table #427: 47768 bytes OK
+2026/02/27-13:32:39.703 4a4 Delete type=0 #424
+2026/02/27-13:32:39.704 4a4 Compacting 4@0 + 1@1 files
+2026/02/27-13:32:39.715 4a4 Generated table #428@0: 47 keys, 102989 bytes
+2026/02/27-13:32:39.715 4a4 Compacted 4@0 + 1@1 files => 102989 bytes
+2026/02/27-13:32:39.735 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/27-13:32:39.735 4a4 Delete type=2 #419
+2026/02/27-13:32:39.736 4a4 Delete type=2 #421
+2026/02/27-13:32:39.736 4a4 Delete type=2 #423
+2026/02/27-13:32:39.736 4a4 Delete type=2 #425
+2026/02/27-13:32:39.736 4a4 Delete type=2 #427

@@ -1,0 +1,10 @@
+@import "~/.config/rofi/theme.rasi"
+
+configuration {
+    terminal: "foot";
+    modi: "drun";
+    display-drun: "";
+    show-icons: false;
+    drun-display-format: "{name}";
+    font: "sans 11";
+}

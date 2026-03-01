@@ -1,0 +1,10 @@
+imports = []
+
+[managers.cargo]
+items = []
+
+[managers.system]
+items = []
+
+[managers.flatpak]
+items = []

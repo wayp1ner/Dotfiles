@@ -1,0 +1,194 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 31,
+    "width": 700,
+    //"width": 1280,// Waybar height (to be removed for auto height)
+    "spacing": 3, // Gaps between modules (4px)
+    "margin": 6,
+    "reload_style_on_change": true,
+    // Choose the order of the modules
+    "modules-left": [
+        "custom/media",
+        "sway/mode"
+    ],
+    "modules-center": [
+        // "mpd",
+        "sway/workspaces"
+    ],
+    "modules-right": [
+        "tray",
+        // "memory",
+        "pulseaudio",
+	    "backlight",
+        "battery",
+        "clock"
+    ],
+    // Modules configuration
+    "custom/chevron_left": {
+        "format": "-"
+    },
+    "group/stuffs":
+    {
+        "orientation": "horizontal",
+        "drawer": {},
+        "modules": [
+            "custom/chevron_left",
+            "tray"
+        ]
+    },
+    "sway/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": true,
+        "icon": false,
+        "format": "{icon}",
+        "format-icons": {
+        //"1": "1",
+        //"2": "2",
+        //"3": "3",
+        //"4": "4",
+        //"5": "5",
+        //"6": "6",
+        //"7": "7",
+        //"8": "8",
+        //"9": "9",
+        //"10": "10"
+        "1": "一",
+        "2": "二",
+        "3": "三",
+        "4": "四",
+        "5": "五",
+        "6": "六",
+        "7": "七",
+        "8": "八",
+        "9": "九",
+        "10": "十"
+}
+    },
+    "sway/mode": {
+        "format": "<span style=\"normal\">{}</span>"
+    },
+    "sway/scratchpad": {
+        "format": "{icon} {count}",
+        "show-empty": false,
+        "format-icons": ["", "[-]:"],
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
+    "sway/window": {
+        "format": "{title}",
+        "icon": false,
+        "icon-size": 14,
+        "max-length": 42,
+        "all-outputs": true,
+        "tooltip": true
+   },
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 14,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "all-outputs": false
+    },
+    "mpd": {
+        "format": "{artist} - {title}",
+        "format-disconnected": "",
+        "format-stopped": "",
+        "title-len": 45,
+        "unknown-tag": "N/A",
+        "interval": 3,
+        "tooltip-format": "{artist} - {title}\nAlbum: {album}\nVolume: {volume}",
+        "tooltip-format-disconnected": ""
+    },
+    "tray": {
+        "icon-size": 14,
+        "spacing": 5
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%A %d}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%a %H:%M}", // 24-hour
+        // "format": "{:%a %I:%M%p}", // 12-hour
+        "format-alt": "{:%a %d %b %Y}" // 24-hour
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "<b>{icon}</b> {percent}",
+        "format-icons": ["/--", "//-", "///"],
+      	"tooltip-format": "Brightness: {percent}%\nClick to toggle Night Light",
+        "on-click": "~/.local/bin/night-light"
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "<b>{icon}</b> {capacity}",
+        "format-charging": "<b>CHG</b> {capacity}",
+        "format-plugged": "<b>CHG</b> {capacity}",
+        "format-full": "{icon}",
+        "format-icons": ["#--", "##-", "###"],
+	    "tooltip-format": "Battery: {capacity}%\n{power}W\n{timeTo}\nHealth: {health}%",
+        "interval": 2,
+        "on-click": "~/.local/bin/power"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "<b>{icon}</b> {volume}",
+        "format-muted": " X ",
+        "format-source": "MIC {volume}",
+        "format-source-muted": "MIC-",
+        "format-icons": ["+--", "++-", "+++"],
+      	"tooltip-format": "Volume: {volume}%\n{desc}",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-click-right": "pavucontrol"
+    },
+    "custom/media": {
+	    "format": "{}",
+	    "return-type": "json",
+        "max-length": 36,
+        "exec": "playerctl -a metadata --format '{\"text\": \"{{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+        "on-click": "playerctl play-pause"
+    },
+    "memory": {
+        "interval": 30,
+        "format": "<b>{used:0.1f}</b>/{total:0.1f}"
+    },
+    "privacy": {
+	    "icon-spacing": 5,
+	    "icon-size": 12,
+	    "transition-duration": 0,
+	    "modules": [
+		    {
+			    "type": "screenshare",
+			    "tooltip": true,
+			    "tooltip-icon-size": 24
+		    },
+		    {
+			    "type": "audio-in",
+			    "tooltip": true,
+			    "tooltip-icon-size": 24
+		    }
+	    ],
+	    "ignore-monitor": true
+    },
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "<b>WiFi</b> {essid} <span color='#aaaaaa'>{signalStrength}</span>",
+        "format-ethernet": "<b>ETH</b> {ipaddr}/<span color='#aaaaaa'>{cidr}</span>",
+        "format-disconnected": "DC'D",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-disconnected": "Disconnected"
+    },
+    "custom/menu": {
+        "format": "#",
+        "on-click": "pgrep -x rofi && pkill -x rofi || rofi -show drun",
+        "on-click-right": "~/.local/bin/menu",
+	    "tooltip": false
+    }
+}

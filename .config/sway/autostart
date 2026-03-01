@@ -1,0 +1,52 @@
+# - --------- -
+# - Autostart -
+# - --------- -
+
+# Run with every reload
+exec_always {
+    # xrdb ~/.Xdefaults # Xwayland app settings
+}
+
+# Run once on login
+exec {
+    # Start pipewire
+    # ~/.local/bin/start-pipewire
+
+    # Dbus
+    dbus-update-activation-environment \
+        --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+    # Desktop portal
+    $(whereis -b xdg-desktop-portal | awk '{print $2}') -r &
+    $(whereis -b xdg-desktop-portal-wlr | awk '{print $2}') -r &
+
+    # Status bar
+    waybar
+
+    # Notification
+    mako
+
+    # Polkit
+    /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+    # GNOME Keyring
+    gnome-keyring-daemon --start --components=secrets,ssh,gpg
+
+    # NetworkManager Applet
+    nm-applet
+
+    # Bluetooth Applet
+    blueman-applet
+
+    # Clipboard manager
+    wl-paste --type text --watch cliphist store
+    wl-paste --type image --watch cliphist store
+
+    # Auto-mount
+    udiskie
+
+    # XDG autostart
+    dex --autostart
+}
+
+# vim:set ft=conf:
