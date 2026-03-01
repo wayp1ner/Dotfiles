@@ -1,4 +1,4 @@
-# stdrice's Linux dotfiles
+# waypiner's Linux dotfiles (based on **[stdrice's dotfiles](https://github.com/stdrice/dotfiles)**)
 
 # Table of Contents
 - [Starring](#starring)
