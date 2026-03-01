@@ -9,11 +9,11 @@
 - **[Sway ⚽](https://swaywm.org)**: Window Manager/Compositor
 - **[Foot ❤️](https://codeberg.org/dnkl/foot)**: Terminal
 - **[LibreWolf 🦊](https://librewolf.net)**: Browser
-- **[Waterfall](https://github.com/crambaud/waterfall)**: CSS/theme browser
 - **[Neovim 📓](https://neovim.io/)**: Text Editor
 - **[Ranger](https://ranger.github.io) and [Nemo](https://github.com/linuxmint/nemo)**: File Manager
 - **[ncmpcpp]([https://github.com/ncmpcpp/ncmpcpp])**: Music Player
 - **[calcurse](https://www.calcurse.org)**: Calendar
+- **[Waterfall](https://github.com/crambaud/waterfall)**: CSS/theme browser
 - **[btop](https://github.com/aristocratos/btop)**: System monitor
 
 # Installation
