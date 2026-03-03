@@ -5,7 +5,7 @@
 - [Keybindings](#keybindings)
 
 # Starring
-<img src="https://files.catbox.moe/b0527d.png" align="right" width="400px">
+<img src="https://files.catbox.moe/ocsib8.png" align="right" width="400px">
 
 - **[Sway ⚽](https://swaywm.org)**: Window Manager/Compositor
 - **[Foot ❤️](https://codeberg.org/dnkl/foot)**: Terminal
