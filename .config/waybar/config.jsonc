@@ -2,11 +2,10 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 31,
-    "width": 700,
-    //"width": 1280,// Waybar height (to be removed for auto height)
-    "spacing": 3, // Gaps between modules (4px)
-    "margin": 6,
+    "height": 30,
+    // "width": 800, //"width": 1280,// Waybar height (to be removed for auto height)
+    "spacing": 4, // Gaps between modules (4px)
+    // "margin": 6,
     "reload_style_on_change": true,
     // Choose the order of the modules
     "modules-left": [
@@ -18,7 +17,7 @@
         "sway/workspaces"
     ],
     "modules-right": [
-        "tray",
+        "group/stuffs",
         // "memory",
         "pulseaudio",
 	    "backlight",
@@ -44,26 +43,26 @@
         "icon": false,
         "format": "{icon}",
         "format-icons": {
-        //"1": "1",
-        //"2": "2",
-        //"3": "3",
-        //"4": "4",
-        //"5": "5",
-        //"6": "6",
-        //"7": "7",
-        //"8": "8",
-        //"9": "9",
-        //"10": "10"
-        "1": "一",
-        "2": "二",
-        "3": "三",
-        "4": "四",
-        "5": "五",
-        "6": "六",
-        "7": "七",
-        "8": "八",
-        "9": "九",
-        "10": "十"
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10"
+        //"1": "一",
+        //"2": "二",
+        //"3": "三",
+        //"4": "四",
+        //"5": "五",
+        //"6": "六",
+        //"7": "七",
+        //"8": "八",
+        //"9": "九",
+        //"10": "十"
 }
     },
     "sway/mode": {
