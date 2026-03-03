@@ -68,8 +68,8 @@ These are the basic keybinds. Read through the `sway/general/keybindings.conf` f
 | :------------------------------------------------ | :-------------------------------- |
 | `Mod + Enter`                                     | Launch terminal (foot)            |
 | `Mod + Q`                                         | Close window                      |
-| `Mod + Shift + C`                                 | Reload config files               |
-| `Mod + D`                                         | Open launcher (rofi)              |
+| `Mod + Shift + E`                                 | Reload config files               |
+| `Mod + Space`                                     | Open launcher (rofi)              |
 | `Mod + Shift + C`                                 | Open powermenu                    |
 | `Mod + Delete`                                    | Screenshot menu                   |
 | `Mod + S/W/E`                                     | Stacking/Tabbed/Tile              |
