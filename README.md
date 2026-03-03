@@ -79,4 +79,4 @@ These are the basic keybinds. Read through the `sway/general/keybindings.conf` f
 | `Mod + Shift + Space`                             | Toggle Floating                   |
 | `Mod + H/J/K/L or Left/Down/Up/Right`             | Change Focus                      |
 | `Mod + Shift + H/J/K/L or Left/Down/Up/Right`     | Move window                       |
-| `Alt + L`                                         | Locksrceen                        |
+| `Mod + Alt + L`                                   | Locksrceen                        |
