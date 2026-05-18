@@ -1,4 +1,5 @@
 # waypiner's Linux dotfiles (based on **[stdrice's dotfiles](https://github.com/stdrice/dotfiles)**)
+# Note : i am developing and learning lua in hyprland and will have dotfiles in the future
 
 - [Starring](#starring)
 - [Installation](#installation)
